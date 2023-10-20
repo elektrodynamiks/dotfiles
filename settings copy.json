@@ -1,0 +1,97 @@
+{
+  "workbench.iconTheme": "vscode-icons-mac",
+  "editor.fontFamily": "fira, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.colorTheme": "GitHub Sharp",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[python]": {
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.bracketPairs": false,
+    "editor.tabSize": 4
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "jnbt.vscode-rufo",
+    "ruby.format": false,
+    "rufo.exe": "rufo", // can be an absolute path
+    "rufo.useBundler": false,
+  },
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingDelete": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.guides.highlightActiveIndentation": "always",
+  "pasteAndIndent.selectAfter": true,
+  "indentRainbow.colors": [
+    "rgba(239, 71, 111,0.15)",
+    "rgba(255, 209, 102,0.15)",
+    "rgba(6, 214, 160, 0.15)",
+    "rgba(17, 138, 178,0.15)",
+    "rgba(7, 59, 76,0.15)",
+    "rgba(7, 59, 76,0.1)",
+    "rgba(7, 59, 76,0.05)",
+    "rgba(7, 59, 76,0.025)"
+  ],
+  "indentRainbow.errorColor": "rgba(128,32,132,0.6)",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.detectIndentation": false,
+  "editor.fontSize": 14,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderControlCharacters": true,
+  "editor.showFoldingControls": "always",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "telemetry.telemetryLevel": "off",
+  "window.newWindowDimensions": "maximized",
+  "workbench.editor.enablePreview": true,
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.panel.defaultLocation": "right",
+  "editor.fontLigatures": true,
+  "editor.accessibilitySupport": "off",
+  "themeSwitcher.night": "One Monokai",
+  "themeSwitcher.day": "GitHub Sharp",
+  "editor.formatOnType": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.stickyTabStops": true,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "editor.matchBrackets": "never",
+  "editor.cursorBlinking": "smooth",
+  "scm.inputFontSize": 14,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "window.zoomLevel": -1,
+  "editor.wordWrap": "on",
+  "ruby.intellisense": "rubyLocate",
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "RainbowBrackets.depreciation-notice": false
+}
