@@ -25,16 +25,17 @@
   "[ruby]": {
     "editor.defaultFormatter": "misogi.ruby-rubocop", // Use the Ruby LSP as the default formatter
     "editor.formatOnSave": true, // Format files automatically when saving
-    "editor.tabSize": 2, // Use 2 spaces for indentation
-    "editor.insertSpaces": true, // Use spaces and not tabs for indentantion
-    "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
     "editor.formatOnType": true,
-    "files.trimTrailingWhitespace": true,
+    "editor.insertSpaces": true, // Use spaces and not tabs for indentantion
+    "editor.rulers": [
+      120
+    ], // Enable formatting while typing
+    "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
+    "editor.tabSize": 2, // Use 2 spaces for indentation
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "editor.rulers": [120] // Enable formatting while typing
+    "files.trimTrailingWhitespace": true
   },
-  "rubyLsp.formatter": "auto",
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -55,7 +56,9 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   /* Excluded file types */
-  "emptyIndent.exclude": [".md"],
+  "emptyIndent.exclude": [
+    ".md"
+  ],
   /* Highlight indent color */
   "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
   /* Highlight indent on empty lines */
@@ -68,7 +71,9 @@
   "eslint.options": {
     "parser": "@babel/eslint-parser"
   },
-  "eslint.validate": ["javascript"],
+  "eslint.validate": [
+    "javascript"
+  ],
   "focus.highlightRange": "none",
   "git.openRepositoryInParentFolders": "always",
   "indentRainbow.colors": [
@@ -86,6 +91,7 @@
   "liveServer.settings.donotVerifyTags": true,
   "redhat.telemetry.enabled": true,
   "ruby.linter.run": "onSave",
+  "rubyLsp.formatter": "auto",
   "rubyLsp.rubyVersionManager": "rbenv",
   // Comments
   "security.workspace.trust.untrustedFiles": "newWindow",

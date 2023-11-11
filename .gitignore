@@ -1,6 +1,8 @@
-
 # apple files
 .DS_Store
+
+# api
+.env*
 
 # Logs
 logs
@@ -132,3 +134,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
