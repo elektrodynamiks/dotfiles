@@ -6,7 +6,7 @@
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[erb]": {
-    "editor.defaultFormatter": "mbessey.vscode-rufo",
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
     "editor.formatOnSave": true
   },
   "[html]": {
@@ -23,7 +23,7 @@
     "editor.formatOnSave": true
   },
   "[ruby]": {
-    "editor.defaultFormatter": "misogi.ruby-rubocop", // Use the Ruby LSP as the default formatter
+    "editor.defaultFormatter": "jnbt.vscode-rufo", // Use the Ruby LSP as the default formatter
     "editor.formatOnSave": true, // Format files automatically when saving
     "editor.formatOnType": true,
     "editor.insertSpaces": true, // Use spaces and not tabs for indentantion
@@ -36,7 +36,7 @@
   },
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "never"
   },
   "editor.cursorStyle": "block-outline",
   "editor.experimentalWhitespaceRendering": "font",
@@ -45,7 +45,6 @@
   "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
-  "editor.linkedEditing": true,
   "editor.matchBrackets": "near",
   "editor.renderLineHighlight": "gutter",
   "editor.renderLineHighlightOnlyWhenFocus": true,
@@ -71,7 +70,7 @@
   "files.associations": {
     "*.html.erb": "erb"
   },
-  "focus.highlightRange": "none",
+  "focus.highlightRange": "block",
   "git.openRepositoryInParentFolders": "always",
   "indentRainbow.colors": [
     "rgba(24, 78, 119,0.15)",
@@ -101,8 +100,28 @@
   // Themes Icons & Workbench
   "themeSwitcher.day": "GitHub Sharp Redux",
   "themeSwitcher.night": "Ocean Eyes Dark",
-  "workbench.colorTheme": "Ultimate White",
   "workbench.iconTheme": "fira-code-material-icon-theme",
   "workbench.startupEditor": "none",
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "explorer.confirmDelete": false,
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "git.autofetch": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.autoClosingBrackets": "never",
+  "workbench.colorTheme": "GitHub Sharp Redux",
+  "editor.autoClosingComments": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.parameterHints.cycle": false,
+  "html.autoClosingTags": false,
+  "extensions.ignoreRecommendations": true
 }
