@@ -1,7 +1,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="random"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
 plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search)
@@ -70,3 +70,10 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+alias .aliases='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/aliases'
+alias .gitconfig='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/gitconfig'
+alias .irbrc='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/irbrc'
+alias .rspec='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/rspec'
+alias .zprofile='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/zprofile'
+alias .zshrc.pre-oh-my-zsh='/Users/elektrodynamiks/DEV/\[code\]/elektrodynamiks/dotfiles/zshrc'
