@@ -23,13 +23,13 @@
     "editor.formatOnSave": true
   },
   "[ruby]": {
-    "editor.defaultFormatter": "jnbt.vscode-rufo", // Use the Ruby LSP as the default formatter
+    "editor.defaultFormatter": "testdouble.vscode-standard-ruby", //Use the Ruby LSP as the default formatter
     "editor.formatOnSave": true, // Format files automatically when saving
     "editor.formatOnType": true,
     "editor.insertSpaces": true, // Use spaces and not tabs for indentantion
     "editor.rulers": [120], // Enable formatting while typing
     "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
-    "editor.tabSize": 2, // Use 2 spaces for indentation
+    "editor.tabSize": 4, // Use 2 spaces for indentation
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true
@@ -123,5 +123,8 @@
   "editor.autoClosingQuotes": "never",
   "editor.parameterHints.cycle": false,
   "html.autoClosingTags": false,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.singleQuote": true,
+  "editor.largeFileOptimizations": false
 }
