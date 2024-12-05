@@ -1,7 +1,5 @@
 {
-  "[cpp]": {
-    "editor.defaultFormatter": "bladnman.auto-align"
-  },
+  "[cpp]": {},
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
@@ -23,6 +21,9 @@
     "editor.formatOnSave": true
   },
   "[ruby]": {
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.quoteProps": "preserve",
     "editor.defaultFormatter": "testdouble.vscode-standard-ruby", //Use the Ruby LSP as the default formatter
     "editor.formatOnSave": true, // Format files automatically when saving
     "editor.formatOnType": true,
@@ -87,12 +88,10 @@
   "liveServer.settings.donotVerifyTags": true,
   "redhat.telemetry.enabled": true,
   "ruby.linter.run": "onSave",
-  "rubyLsp.formatter": "auto",
+  "rubyLsp.formatter": "rubocop",
   "rubyLsp.rubyVersionManager": "rbenv",
   // Comments
   "security.workspace.trust.untrustedFiles": "newWindow",
-  "terminal.explorerKind": "both",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
@@ -120,11 +119,15 @@
   "editor.autoClosingBrackets": "never",
   "workbench.colorTheme": "GitHub Sharp Redux",
   "editor.autoClosingComments": "never",
-  "editor.autoClosingQuotes": "never",
   "editor.parameterHints.cycle": false,
   "html.autoClosingTags": false,
   "extensions.ignoreRecommendations": true,
-  "html.completion.attributeDefaultValue": "singlequotes",
+  "editor.largeFileOptimizations": false,
   "prettier.singleQuote": true,
-  "editor.largeFileOptimizations": false
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "ruby.intellisense": "rubyLocate",
+  "terminal.explorerKind": "both"
 }

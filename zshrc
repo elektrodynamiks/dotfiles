@@ -71,9 +71,10 @@ export EDITOR=code
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
 
-alias .aliases='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/aliases'
-alias .gitconfig='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/gitconfig'
-alias .irbrc='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/irbrc'
-alias .rspec='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/rspec'
-alias .zprofile='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/zprofile'
-alias .zshrc.pre-oh-my-zsh='/Users/elektrodynamiks/DEV/\[code\]/elektrodynamiks/dotfiles/zshrc'
+#alias .aliases='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/aliases'
+#alias .gitconfig='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/gitconfig'
+#alias .irbrc='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/irbrc'
+#alias .rspec='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/rspec'
+#alias .zprofile='/Users/elektrodynamiks/\[code\]/elektrodynamiks/dotfiles/zprofile'
+#alias .zshrc.pre-oh-my-zsh='/Users/elektrodynamiks/DEV/\[code\]/elektrodynamiks/dotfiles/zshrc'
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"

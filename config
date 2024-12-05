@@ -1,4 +1,10 @@
+Host 172.16.11.160
+  HostName 172.16.11.160
+
 Host *
   UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_ed25519
+Host git-codecommit.*.amazonaws.com
+  User APKAW3MD7IH7TOZO6JUE
+  IdentityFile ~/.ssh/codecommit_rsa
